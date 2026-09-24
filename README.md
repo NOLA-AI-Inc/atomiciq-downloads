@@ -11,4 +11,6 @@ Choose the installer for your computer:
 
 Both installers download and verify the language and Docling PDF models during installation, so the computer needs internet access for that step. The installed application runs locally without network access.
 
+The standalone `AtomicIQ-macOS-arm64.command` asset is the payload used by the Mac setup script. If you downloaded it directly, run it with `bash AtomicIQ-macOS-arm64.command` from Terminal; this does not require `chmod +x`.
+
 [View the latest release and SHA-256 checksums](https://github.com/NOLA-AI-Inc/atomiciq-downloads/releases/latest). Windows builds are on hold.
